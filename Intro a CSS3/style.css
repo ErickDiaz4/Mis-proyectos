@@ -1,0 +1,102 @@
+* {
+    box-sizing:border-box ;
+    font-family: 'roboto',sans-serif;
+    margin: 0%
+}
+
+/*header*/
+.descuento {
+    background-color: #1CD1B0;
+    margin: 0%;
+    padding:  10px;
+    position: sticky; top:0;
+}
+
+.heroe {
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px;
+    font-size: 40px;
+    padding: 10px;
+    }
+
+/*main*/
+
+/*section1*/
+    /*div1*/
+
+.fondo1 {
+    background-image: url(img/fondeDeBatman.png);
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+    height: 225px;
+    margin: 180px 50px ;
+    padding: 10px;
+    width: 25%;
+}
+.caja { 
+    margin-top: 140px;
+    margin-left: 90px;
+    width: 130px;
+    border-radius: 60px;
+}
+.subtitulo {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+.parrafo1 {
+    margin: 5px 17px;
+    padding: 5px;
+}
+.link {
+    background-color: #00669F;
+    color: white;
+    padding: 15px 37px;
+    position: relative;left: 65px; top: 20px;
+    text-decoration: none;
+}
+
+/*div2*/
+
+.fondo2 {
+    background-image: url(img/fondoDeScarlet.png);
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+    height: 220px;
+    margin: 180px 50px;
+    padding: 10px;
+    width: 25%;
+}
+
+
+/*div3*/
+.fondo3 { 
+    background-image: url(img/Fondosuperman1.png);
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+    height: 220px;
+    margin: 180px 50px ;
+    padding: 10px;
+    width: 25%;
+}
+
+.caja-superman {
+    margin-top: 140px;
+    margin-left: 90px;
+    width: 180px;
+    border-radius: 100px;
+}
+
+/*footer*/
+.derechos {
+    margin: 200px 0 0 0;
+    padding: 15px 0 15px 10px;
+    background-color: #00669F;
+    color: white
+    ;}
+
+
+

@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+}
+.imagen-principal {
+  height: 212px;
+  width: 300px;
+}
+.titulo1 {
+    margin: 0 0 29px 0;
+}
+.imagen-de-fondo {
+  background-image: url("img/fondo\ de\ imagen.jpg");
+  background-size: cover;
+  height: 253px;
+}
+body {
+  background-color: bisque;
+}
+.Centrar {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(156, 151, 151);
+  color: rgb(58, 58, 148);
+}
+h2 {
+  background-color: rgb(156, 151, 151);
+  color: rgb(58, 58, 148);
+}
+.titulo {
+  font-style: italic;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  background-color: rgb(34, 122, 138);
+}
+.img {
+  height: 13px;
+  width: 15px;
+}
+.imga {
+  height: 15px;
+  width: 16px;
+}
+header {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+.span-header, .a{
+    background-color: rgb(235, 154, 56);
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*contacto html*/
+body {
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+p {
+    padding: 40px 40px 0px 40px;
+}
+img {
+    margin-top: 10px;
+    width: 280px;
+    height: 410px;
+}
