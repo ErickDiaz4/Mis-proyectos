@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style2.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <p class="fondoP">20% de descuento en todos los productos</p>
+      <div class="div1-header">
+        <img src="img-formlario/Logo1.png" alt="Logo" />
+        <div class="hijo-div1">Comics</div>
+      </div>
+      <nav>
+        <ul class="ul">
+          <li class="li">Contacto</li>
+          <li class="li">Registrame</li>
+          <li class="li">Ingresar</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contenedor-principal">
+      <section class="contenedor-dos">
+        <h2 class="titulo1">Anade tu super!</h2>
+        <h3 class="titulo2">
+          Agrega tu personaje favorito completando las opciones
+        </h3>
+      </section>
+      <section class="contenedor-tres">
+        <div class="div-contenedor3">
+          <div>
+            <form action="index.html" method="get">
+            <label for="Nombre">Nombre (Obligatorio)</label>
+            <input
+              class="input1"
+              type="text"
+              name="Nombre"
+              id="Nombre"
+              required
+              placeholder="Gabriela"
+              minlength="4"
+              maxlength="20"
+            />
+          </div>
+          <div>
+            <label for="fecha">Fecha</label>
+            <input
+              class="input1"
+              type="date"
+              name="fecha"
+              id="fecha"
+              required
+              min="1990-01-01"
+              max="2023-03-30"
+            />
+          </div>
+          <div class="nombre">
+            <textarea
+              class="textarea-div3"
+              name="texto"
+              id="texto"
+              placeholder="Mega visión, supermente, corazón ultra grande, supersonrisa, superoído, supermanos codeadoras"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <div class="div-contenedor4">
+          <div>
+            <label for="especie">Especie</label>
+            <select class="input1" name="especie" id="especie" required>
+              Especie
+              <option value="1">Acuático</option>
+              <option value="2">Terrestre</option>
+              <option value="3">Aereo</option>
+            </select>
+          </div>
+          <div>
+            <label for="foto">Agregar foto</label>
+            <input class="input1" type="file" multiple="jpg , png" required/>
+          </div>
+          <div class="checkbox">
+            <p class="parrafo-contenedor4">Poderes</p>
+            <label for="checkbox" class="checkbox"
+              ><input type="checkbox" name="volar" id="Poderes"/>Volar</label
+            ><label for="checkbox" class="checkbox"
+              ><input
+                type="checkbox"
+                name="Superinteligencia"
+                id="Poderes"
+              />Superinteligencia</label
+            ><label for="checkbox" class="checkbox"
+              ><input type="checkbox" name="Billetera goda" id="Poderes" />Vista
+              de rayo laser</label
+            ><label for="checkbox" class="checkbox"
+              ><input
+                type="checkbox"
+                name="Billetera goda"
+                id="Poderes"
+              />Billetera goda</label
+            >
+          <fieldset></fieldset>
+          <p class="parrafo-contenedor4">Tipo de personaje</p>
+          <label for="radio" class="radio"><input type="radio" name="HéroeOVillana" id="radio">Héroe / Heroina</label>
+          <label for="radio" class="radio"><input type="radio" name="HéroeOVillana" id="radio">Villano / Villana</label>
+      </section>
+      <div class="añadir-contenedor">
+      <input class="añadir1" type="submit" value="Añadir"></input>
+    </form>
+      </div>
+    </main>
+    <footer>Todos los derechos reservados a FRONT END 1</footer>
+  </body>
+</html>

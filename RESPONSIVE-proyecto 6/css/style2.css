@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/*header*/
+
+.fondoP {
+    background-color: #1CD1B0;
+    padding: 0% 0% 0 1%;
+}
+.div1-header {
+    align-items: center;
+    background-color: #00669F;
+    display: flex;
+}
+.hijo-div1{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 0 0 0 1%;
+}
+.ul,li{
+    color: #ffffff;
+    background-color: #001D2D;    
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;   
+    padding: 0.50% 1% 0.50% 0;
+}
+/*main*/
+
+.contenedor-principal {
+    align-items: center;
+    background-color: #00669F;
+    border-radius: 1.5%;
+    color: #ffffff;
+    margin: 4% 20.2%;
+}
+.contenedor-dos{
+    display: flex;
+    flex-direction: column;
+}
+.titulo1 {
+    font-size: 250%;
+    padding: 1%;
+    text-align: center;
+}
+.titulo2 {
+    color: rgba(247, 242, 242, 1);
+    font-size: 130%;
+    font-weight: 1;
+    padding-bottom: 2%;
+    text-align: center;
+}
+/*contenedor 3*/
+.contenedor-tres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.div-contenedor3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 7%;
+    width: 400px;
+}
+label {
+    margin: 7%;
+    font-size: 20px;
+}
+.input1 {
+    width: 100%;
+    margin: 5% 5% 5% 0;
+    padding: 7%;
+    border-radius: 20px;
+}
+.input1:valid {
+    background-color: #b6ebe1;
+    border-color: #1CD1B0;
+}
+.input1:focus {
+    background-color: rgb(113, 116, 115);
+    color: white;
+}
+.textarea-div3:focus {
+    background-color: rgb(113, 116, 115);
+    color: white;
+}
+
+.textarea-div3{
+    width: 100%;
+    height: 250px;
+    margin: 2% 5% 5% 0;
+    padding: 10%;
+    border-radius: 25px;
+}
+/*contenedor 4*/
+
+.div-contenedor4 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 0 1%;
+    width: 400px;
+}
+.parrafo-contenedor4 {
+    font-size: 120%;
+    margin: 5% 0% 0% 5%;
+}
+.checkbox {
+    display: block;
+    margin: 2px 0 0 3%;
+}
+input[type="checkbox"]:checked {
+    accent-color: red;
+}
+.radio {
+    display: block;
+    margin: 2px 0 0 3%;
+}
+.añadir-contenedor {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    justify-content: center;
+    width: 100%;
+}
+.añadir1 {
+    background-color: #1CD1B0;
+    border-radius: 30px;
+    color: black;
+    font-size: 180%;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 3% 20%;
+}
+.añadir1:active {
+    background-color: red;
+}
+/*Footer*/
+
+footer {
+    background-color: #00669F;
+    text-align: center;
+    color: #ffffff;
+    padding: 1.2% 10%;
+}
