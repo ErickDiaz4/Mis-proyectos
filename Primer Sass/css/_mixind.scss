@@ -1,0 +1,17 @@
+@mixin contenedor ($width , $margin) {
+    height: 180px;
+    width: $width;
+    margin-right: $margin;
+    .lista-footer1 {
+      list-style: none;
+      li {
+        margin-bottom: 27px;
+        a {
+          text-decoration: none;
+          color: $color-terciario;
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,222 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+body header .position {
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  padding: 40px 46px 30px 53px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+body header .position nav {
+  width: 44%;
+}
+body header .position nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body header .position nav ul img {
+  margin-right: 8px;
+}
+body header .position nav ul li {
+  list-style: none;
+  text-align: center;
+}
+body header .position nav ul li a {
+  color: white;
+  padding: 5px 18px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+body header .position nav ul li a:hover {
+  background-color: rgba(214, 214, 214, 0.5);
+  border-radius: 20px;
+}
+body header .position div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 23%;
+}
+body header .position div input {
+  background-color: rgb(17, 17, 17);
+  border-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  border-width: 1px;
+  color: white;
+  height: 43px;
+  padding: 20px;
+  width: 118%;
+}
+body header .position div a {
+  height: 32px;
+  width: 11%;
+  border: solid;
+  border-color: white;
+  border-radius: 23px;
+  margin-left: 55px;
+}
+body header .position div a img {
+  border-radius: 19px;
+  height: 100%;
+  width: 104%;
+}
+body main {
+  color: white;
+  margin: 170px 63px 0 62px;
+}
+body main section h1 {
+  font-size: 27px;
+}
+body main section .grid {
+  display: grid;
+  grid-template-columns: repeat(7, 177px);
+  margin-top: 39px;
+}
+body main section .grid img {
+  width: 173px;
+  height: 250px;
+}
+body main section .grid img:hover {
+  animation-name: animacion-principal;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion-principal {
+  0% {
+    transform: translate(0, -2%);
+  }
+  100% {
+    transform: scale(1.5, 1.5);
+  }
+}
+body main section {
+  margin-top: 59px;
+}
+body main section .contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 177px);
+}
+body main section .contenedor-grid img {
+  width: 173px;
+  height: 250px;
+}
+body main section {
+  margin-top: 59px;
+}
+body main section .contenedor-grid2 {
+  display: grid;
+  grid-template-columns: repeat(7, 177px);
+}
+body main section .contenedor-grid2 img {
+  width: 173px;
+  height: 250px;
+}
+body main section {
+  margin-top: 59px;
+}
+body main section .contenedor-grid3 {
+  display: grid;
+  grid-template-columns: repeat(7, 177px);
+}
+body main section .contenedor-grid3 img {
+  width: 173px;
+  height: 250px;
+}
+body main section {
+  margin-top: 59px;
+}
+body main section .contenedor-grid4 {
+  display: grid;
+  grid-template-columns: repeat(7, 177px);
+}
+body main section .contenedor-grid4 img {
+  width: 173px;
+  height: 250px;
+}
+body footer {
+  margin: 230px 0 0 62px;
+  position: relative;
+}
+body footer .footer {
+  display: flex;
+  align-items: flex-start;
+}
+body footer .footer div {
+  margin-bottom: 140px;
+}
+body footer .footer .contenedor1 {
+  height: 180px;
+  width: 210px;
+  margin-right: 100px;
+}
+body footer .footer .contenedor1 .lista-footer1 {
+  list-style: none;
+}
+body footer .footer .contenedor1 .lista-footer1 li {
+  margin-bottom: 27px;
+}
+body footer .footer .contenedor1 .lista-footer1 li a {
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+  font-size: 20px;
+  line-height: 30px;
+}
+body footer .footer .contenedor2 {
+  height: 180px;
+  width: 310px;
+  margin-right: 5px;
+}
+body footer .footer .contenedor2 .lista-footer1 {
+  list-style: none;
+}
+body footer .footer .contenedor2 .lista-footer1 li {
+  margin-bottom: 27px;
+}
+body footer .footer .contenedor2 .lista-footer1 li a {
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+  font-size: 20px;
+  line-height: 30px;
+}
+body footer .footer .contenedor3 {
+  height: 180px;
+  width: 320px;
+  margin-right: 0px;
+}
+body footer .footer .contenedor3 .lista-footer1 {
+  list-style: none;
+}
+body footer .footer .contenedor3 .lista-footer1 li {
+  margin-bottom: 27px;
+}
+body footer .footer .contenedor3 .lista-footer1 li a {
+  text-decoration: none;
+  color: rgb(102, 100, 100);
+  font-size: 20px;
+  line-height: 30px;
+}
+body footer img {
+  position: absolute;
+  right: 45px;
+  bottom: 288px;
+}
+body footer span {
+  color: rgb(102, 100, 100);
+  position: absolute;
+  font-size: 14px;
+  bottom: 60px;
+}/*# sourceMappingURL=style.css.map */

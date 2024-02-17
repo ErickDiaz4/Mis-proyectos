@@ -87,6 +87,10 @@ label {
     background-color: rgb(113, 116, 115);
     color: white;
 }
+.textarea-div3:valid {
+    border-color: #1CD1B0;
+    background-color: #b6ebe1;
+}
 
 .textarea-div3{
     width: 100%;
